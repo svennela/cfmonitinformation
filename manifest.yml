@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-monitprocess
+  memory: 512M
+  instances: 1
+  host: cf-monitprocess
+  path: target/cfmonitprocess-0.0.1-SNAPSHOT.jar
+

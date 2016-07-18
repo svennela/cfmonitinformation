@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cloud Foundry</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <link href="cfmonitprocess.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.js"></script>
+  </head>
+<body>
+<div class='content'>
+  <h3>Monit Process Information for CF 235</h3>
+  <hr/>
+<div class="row">
+   <div class="col-md-8"> <span id='tree'></span> </div>
+   <div class="col-md-4"> <div id='vid-container'> <embed id='vid'/></div>
+</div>
+</div>
+<script src='cfmonitprocess-data.js'></script>
+<script src='cfmonitprocess.js'></script>
+</body>
+</html>
